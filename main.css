@@ -1,0 +1,52 @@
+body{
+    background-color: #f69f34;
+}
+.sun{
+    margin: 30px auto;
+    width: 18%;
+    padding: 25px 25px 20px;
+    border-radius: 50px;
+    background-color: rgb(33,29,29);
+    box-shadow: 0px 4px 5px rgb(33,29,29);
+}
+legend{
+    font-size: 27px;
+    margin-bottom: 18px;
+    font-weight: bod;
+}
+form{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+}
+input{
+    width: 50px;
+    height: 30px;
+    margin: 0px 5px;
+    color: #070707;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+@media(max-width: 1550px){
+    .sun{
+        width: 35%;
+    }
+}
+@media (max-width: 850px){
+    .sun{
+        width: 70%;
+    }
+}
+@media (max-width: 550px){
+    .sun{
+        width: 70%;
+    }
+}
+    
+
